@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
 /*
- * Binary search first checks the value 25 at index 4 (0+9/2 = 4). As 77 is greater than 25, binary search then searches the right sublist.
+ * 20.2.4
+ * Question 1: Binary search first checks the value 25 at index 4 (0+9/2 = 4). As 77 is greater than 25, binary search then searches the right sublist.
  * 
+ * Question 2: Binary search first checks the value 25 at index 4 ((0+9)/2 = 4), then searches the left sublist at index 1 ((0+3)/2 = 1), and then searches the right sublist at index 2 ((2+3)/2 = 2), finding the value 17. 
  */
 public class Chapter_20_Binary_Search {
 	public static int binarySearch(int [] numbers, int key) {
