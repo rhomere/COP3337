@@ -6,6 +6,19 @@
  * Answer
  * (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) * 1 µs = 45 µs
  */
+
+/*
+ * For each outer loop execution, if the element is already in sorted position, only a single comparison is made. Each element not in sorted position requires at most N comparisons. If there are a constant number, C, of unsorted elements, sorting the N - C sorted elements requires one comparison each, and sorting the C unsorted elements requires at most N comparisons each.
+ * The runtime for nearly sorted inputs is O((N - C) * 1 + C * N) = O(N).
+ */
+
+/*
+ * Section 20.6.3
+ * Question 3
+ * How many times longer will sorting a list of 500 elements take compared to a list of 50 elements?
+ * Answer
+ * 500^2 / 50^2 = 250000 / 2500 = ?
+ */
 public class Chapter_20_Insertion_Sort {
 	public static void insertionSort(int [] numbers) {
 	      int i;
