@@ -1,4 +1,11 @@
 
+/*
+ * Section 20.7.3
+ * Question 1
+ * In the worst case, assuming each comparison takes 1 µs, how long will insertion sort algorithm take to sort a list of 10 elements?
+ * Answer
+ * (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) * 1 µs = 45 µs
+ */
 public class Chapter_20_Insertion_Sort {
 	public static void insertionSort(int [] numbers) {
 	      int i;
