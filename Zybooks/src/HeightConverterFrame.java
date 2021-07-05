@@ -31,8 +31,6 @@ public class HeightConverterFrame extends JFrame implements ActionListener, Chan
 	      using a GridBagLayout. */
 	   HeightConverterFrame() {
 		   
-		   JRadioButton p = new JRadioButton();
-		   p.setsele
 	      int feetMin = 0;    // Feet slider min value
 	      int feetMax = 10;   // Feet slider max value
 	      int feetInit = 5;   // Feet slider initial value
